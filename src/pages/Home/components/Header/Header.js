@@ -1,6 +1,6 @@
-import styles from "./Header.module.scss";
-import logo from "./assets/logo.png";
-import searchIcon from "./assets/searchicon.png";
+import styles from './Header.module.scss';
+import logo from './assets/logo.png';
+import searchIcon from './assets/searchicon.png';
 
 export function Header() {
     return (
