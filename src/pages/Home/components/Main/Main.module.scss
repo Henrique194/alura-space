@@ -1,3 +1,5 @@
+@import '../../../../_variables.scss';
+
 .main {
   margin: 0 24px;
 
@@ -12,7 +14,7 @@
       width: 88%;
 
       h1 {
-        color: #d9d9d9;
+        color: $text-color;
         font-size: 2.5rem;
         height: 144px;
         left: 44px;
