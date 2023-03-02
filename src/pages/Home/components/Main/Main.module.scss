@@ -1,0 +1,31 @@
+.main {
+  margin: 0 24px;
+
+  section {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+    div {
+      position: relative;
+      width: 88%;
+
+      h1 {
+        color: #d9d9d9;
+        font-size: 2.5rem;
+        height: 144px;
+        left: 44px;
+        position: absolute;
+        top: 75px;
+        width: 401px;
+        z-index: 1;
+      }
+
+      img {
+        height: 288px;
+        width: 100%;
+      }
+    }
+  }
+}
