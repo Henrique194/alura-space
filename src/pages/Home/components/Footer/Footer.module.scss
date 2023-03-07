@@ -1,0 +1,28 @@
+@import '../../../../_variables.scss';
+
+.footer {
+  align-items: center;
+  background-color: $footer-blue;
+  bottom: 0;
+  box-shadow: 0 -2px 30px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  padding: 0 24px;
+  position: fixed;
+  width: 100%;
+
+  &_icons {
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    width: 10%;
+  }
+
+  p {
+    color: $text-color;
+    font-family: $default-font;
+    margin: 0;
+  }
+}
